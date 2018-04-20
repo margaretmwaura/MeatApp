@@ -1,0 +1,224 @@
+#null
+    {
+    width: 100%;
+    height: 80px;
+}
+#empty
+{
+    width: 100%;
+    height: 100px;
+}
+header
+{
+    width:100%;
+    background-color: purple;
+    height: 80px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: 0.90;
+    position: fixed;
+}
+
+.container
+{
+    font-size: larger;
+}
+ul{
+    list-style: none;
+}
+nav ul li{
+
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    opacity: .8;
+    width:100px;
+}
+a{
+    color: mediumpurple;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color:olivedrab;
+    text-decoration: underline;
+}
+nav
+{
+    float:right;
+}
+#logo {
+    float: left;
+    max-width: 80px;
+    max-width: 80px;
+}
+#co
+{
+    text-align: center;
+}
+#firr
+{
+    width:29%;
+    margin: 2% 2%;
+    float: left;
+    text-align: center;
+}
+#secc
+{
+    width:29%;
+    margin: 2% 2%;
+    float:left;
+    text-align: center;
+}
+#thirr
+{
+    float:left;
+    width:29%;
+    margin: 2% 2%;
+    text-align: center;
+}
+
+#fir
+{
+    text-align: center;
+    max-width:100%;
+    height:auto;
+    width: auto;
+    opacity: .9;
+}
+#sec
+{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+#thir
+{
+    text-align: center;
+    max-width:100%;
+    height:auto;
+    width: auto;
+}
+footer
+{
+    background-color: mediumpurple;
+    overflow:hidden;
+    width: 100%;
+    opacity: 0.90;
+    position: absolute;
+    height:400px;
+    bottom:-1950px;
+
+}
+#foot
+{
+    padding:3px;
+    width: 40%;
+    height:100%;
+    font-size:larger;
+    float: left;
+}
+#form
+{
+    padding:3px;
+    float:left;
+    width: 40%;
+    height:100%;
+    font-size:larger;
+}
+h6
+{
+    font-size:larger;
+    font-weight: bold;
+}
+#four
+{
+    width:40%;
+    margin: 2% 2%;
+    float: left;
+    text-align: center;
+}
+#banner
+{
+    height:300px;
+}
+#ima
+{
+    width:50%;
+    float: left;
+}
+#aboutus
+{
+    width:100%;
+    height: 550px;
+    background-image:url("guitar.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+}
+#aboutus1
+{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+}
+h1
+{
+    color: purple;
+}
+#instruments
+{
+    float:left;
+    width:100%;
+    height:600px;
+}
+#one
+{
+    padding:21px;
+    opacity: .8;
+}
+#two
+{
+    padding:21px;
+    opacity: .8;
+}
+#three
+{
+    padding:21px;
+    opacity: .8;
+}
+#fourr
+{
+    padding:20px;
+}
+#info
+{
+    padding:3px;
+    float:left;
+    width: 40%;
+    height:100%;
+    font-size:larger;
+}
+#facebook
+{
+    height: 30px;
+    width: 30px;
+    opacity: .8;
+}
+#gmail
+{
+    height: 30px;
+    width: 30px;
+    opacity: .8;
+}
+marquee
+{
+    font-size:x-large;
+    font-weight: bold;
+    width: 50%;
+    color: purple;
+}

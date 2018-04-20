@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Meat</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="Aboutus.css">
+
+<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+</head>
+
+<body>
+
+<header id="intro">
+<div>
+     <nav class="navbar navbar-default">
+  <div class="container-fluid" id="icon1">
+     
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+    <!-- The code for the company logo goes here -->
+        
+<img src="logo2.PNG" id="logo1" class="img-responsive">
+        <p style="font-weight:bold;font-size:15px;float:left;color:black;" id="logodes"> 
+        Meat<br>
+        <span style="color:crimson;font-size:17px">Source</span></p>
+
+     <!-- The end of the code -->
+     <!-- The code for the navigation bar goes here -->
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="Aboutuus.html">About us</a></li>
+        <li><a href="Contactus.php">Contact us </a></li> 
+        <li><a href="Details.php">Details </a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+
+   </nav>
+ 
+</div>
+</header>
+
+<div class="backfixed fixed1">
+
+<div class="container">
+    
+<div class="row">
+
+<div class="col-sm-2">
+
+</div>
+
+<div class="col-sm-8" style="text-align:center;">
+<p style="font-size:35px;color:white;font-weight:bolder;padding-top:150px;">We have been in existence for over 10yrs</p>
+<p style="font-size:23px;color:white;font-family:Arial Verdana;">we have been rated among the best in the meat industry</p>
+<p style="font-size:23px;color:white;font-family:Arial Verdana;">Try us today</p>
+<input type="button" value="ORDER NOW" id="orderingbutton" onclick="window.location.href='records.php'">
+</div>
+<div class="col-sm-2">
+
+</div>
+  </div>
+
+
+</div>
+
+</div>
+
+<div class="backscroll">
+
+<div id="missionnvision" class="container">
+  <p style="font-size:40px;color:black;font-weight:bolder;padding-top:50px;text-align:center;font-family:Arial Verdana;"><u>Our Vision,Our mission</u></p>
+<p style="font-size:18px;color:black;font-family:Arial Verdana;">
+ Seeing that most people
+around the country dont get to have fresh meat at their convenience we 
+decided to start the company to solve the misfortune.We are a company that is made up of talented and hardworking members whose 
+  passion is in serving the community to thier best of ability.
+  We are a young company that is determined to see change in the 
+  meat industry in the country and the whole buying and selling process involved in it.
+  We believe that money not circulate within one county but within all counties of the contry.
+  People in different counties have got needs that can be fullfilled by people in different countries. All is needed is a means of connecting them so that both can benefit and grow.
+</p>
+</div>
+
+<div id="history" class="container">
+<div class="row">
+
+  <div class="col-sm-1">
+    
+  </div>
+
+ <div class="col-sm-5" id="histo">
+    <p style="font-size:40px;color:black;font-weight:bolder;text-align:center;font-family:Arial Verdana;"><u>Our history</u></p>
+<p style="font-size:18px;color:black;font-family:Arial Verdana;text-align:center;">
+ We are a young company that started three youngs with a total employee count of 10. We have grown over the years to a total number of thirty employees. These mostly includes the delivery unit and the communications. We are having a vision of expanding to greater numbers in the coming years.
+</p>
+  </div>
+   <div class="col-sm-5">
+    <img src="capture1061.PNG">
+  </div>
+  <div class="col-sm-1">
+    
+  </div>
+
+</div>
+  
+</div>
+
+<div id="Fplans" class="container">
+<div class="row">
+
+  <div class="col-sm-1">
+    
+  </div>
+
+ <div class="col-sm-5" id="histo">
+    <img src="capture971.PNG" style="">
+  </div>
+   <div class="col-sm-5">
+    <p style="font-size:40px;color:black;font-weight:bolder;text-align:center;font-family:Arial Verdana;"><u>Future plans</u></p>
+<p style="font-size:18px;color:black;font-family:Arial Verdana;text-align:center;">
+ We are a young company that started three youngs with a total employee count of 10. We have grown over the years to a total number of thirty employees. These mostly includes the delivery unit and the communications. We are having a vision of expanding to greater numbers in the coming years.
+</p>
+   
+  </div>
+  <div class="col-sm-1">
+    
+  </div>
+
+</div>
+  
+</div>
+
+</div>
+
+
+<div class="backfixed fixed2" id="quote">
+<!--This the code for fadein in the quote displayed -->
+<script type="text/javascript">
+ 
+$(document).scroll(function () {
+var y = $(this).scrollTop();
+var x = $("#quote").position();
+
+if (y > (x.top - 50)) { // -50 so things don't overlap
+    $(".z").addClass(
+        "fadeIn");
+}
+else {
+    $(".z").removeClass(
+        "fadeIn");
+}
+});
+
+</script>
+<!--The end of the code for the animation -->
+
+
+  <blockquote class="z" id="zz">
+  Let food be thy medicine and medicine be thy food
+  
+  </blockquote>
+  <cite class="z">
+    ~Hippocrates
+  </cite>
+
+</div>
+
+<div class="backscroll">
+
+<div id="Titleone" >
+  <p style="font-size:18px;color:black;font-family:Arial Verdana;text-align:center;">
+It is composed of the foods of the various kinds that our customers prepare when <br>they buy from us. Fresh quality meat results into sweet tasty and healty meat.
+</p>
+<p style="font-size:18px;color:black;font-family:Arial Verdana;text-align:center;font-weight:bold"><i>Take a look ...seeing is believing </i></p>
+</div>
+
+<!--The code for the image gallery -->
+<div id="gallery1">
+
+  <img src="capture102.PNG" style="height:150px;width:400px;padding-right:2px;" >
+
+  <img src="capture111.PNG" style="height:150px;width:400px;padding-left:2px;">
+
+
+</div>
+  
+<!--Begining of the code where the images slide down -->
+
+  <script type="text/javascript">
+ 
+$(document).scroll(function () {
+var y = $(this).scrollTop();
+var x = $("#Titleone").position();
+
+if (y > (x.top-150)) { // -50 so things don't overlap
+    $("#gallery1").addClass(
+        "slideInDown");
+}
+else {
+    $("#gallery1").removeClass(
+        "slideInDown");
+}
+});
+
+</script>
+
+<!-- End of the code where images slide down -->
+
+<div id="gallery2" class="container">
+<div id="gallery22">
+   <img src="banner66.PNG" style="height:150px;width:550px;padding-right:2px;" >
+</div>
+ 
+<div id="gallery23">
+  <img src="body7.PNG" style="height:150px;width:250px;padding-left:2px;" >
+</div>
+  
+
+</div>
+<!--Begining of the code where the images slide up -->
+
+  <script type="text/javascript">
+ 
+$(document).scroll(function () {
+var y = $(this).scrollTop();
+var x = $("#Titleone").position();
+
+if (y > (x.top)) { // -50 so things don't overlap
+    $("#gallery3").addClass(
+        "slideInUp");
+}
+else {
+    $("#gallery3").removeClass(
+        "slideInUp");
+}
+});
+
+</script>
+
+<!-- End of the code where images slide up -->
+<!--Begining of the code where the images slide left -->
+
+  <script type="text/javascript">
+ 
+$(document).scroll(function () {
+var y = $(this).scrollTop();
+var x = $("#Titleone").position();
+
+if (y > (x.top - 50)) { // -50 so things don't overlap
+    $("#gallery22").addClass(
+        "slideInLeft");
+}
+else {
+    $("#gallery22").removeClass(
+        "slideInLeft");
+}
+});
+
+</script>
+
+<!-- End of the code where images slide left -->
+<!--Begining of the code where the images slide Right -->
+
+  <script type="text/javascript">
+ 
+$(document).scroll(function () {
+var y = $(this).scrollTop();
+var x = $("#Titleone").position();
+
+if (y > (x.top-50)) { // -50 so things don't overlap
+    $("#gallery23").addClass(
+        "slideInRight");
+}
+else {
+    $("#gallery23").removeClass(
+        "slideInRight");
+}
+});
+
+</script>
+
+<!-- End of the code where images slide Right -->
+
+<div id="gallery3" class="container">
+
+  <img src="aboutus3.PNG" style="height:150px;width:265px;padding-right:2px;" >
+
+  <img src="aboutus1.PNG" style="height:150px;width:265px;padding-left:2px;"  >
+
+  <img src="aboutus4.PNG" style="height:150px;width:265px;padding-left:2px;" >
+
+</div>
+
+<div id="operations">
+  <p style="font-size:40px;color:black;font-weight:bolder;text-align:center;font-family:Arial Verdana;"><u>Our Operations</u></p>
+</div>
+<div id="operations1" class="container">
+  <div class="row">
+     <div class="col-sm-4" style="text-align:center;">
+      <img src="capture1123.PNG" style="height:100px;width:100px;">
+      <p style="font-size:20px;color:grey;font-family:Arial Verdana;text-align:center;font-weight:bold;padding-top:60px;">Ordering</p>
+      <p style="font-size:18px;color:black;font-family:Arial Verdana;text-align:center;">
+        The people interested in <br>
+        being delivered to them make <br>
+        orders by making phone calls.
+      </p>
+  </div>
+
+  <div class="col-sm-4" style="text-align:center;">
+<img src="capture1122.PNG" style="height:100px;width:200px;">
+<p style="font-size:20px;color:grey;font-family:Arial Verdana;text-align:center;font-weight:bold;padding-top:60px;">Delivery</p>
+<p style="font-size:18px;color:black;font-family:Arial Verdana;text-align:center;">
+  Once the order has been<br>
+  received the package is delivered <br>
+  to their locations.
+</p>
+  </div>
+
+  <div class="col-sm-4" style="text-align:center;">
+<img src="capture112411.PNG" style="height:100px;width:200px;">
+<p style="font-size:20px;color:grey;font-family:Arial Verdana;text-align:center;font-weight:bold;padding-top:60px;">Paymment</p>
+<p style="font-size:18px;color:black;font-family:Arial Verdana;text-align:center;">
+  Payements are required to be<br>
+  made once the client has received<br>
+  and can attest that it is good meat
+</p>
+  </div>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+<div class="backfixed fixed3" >
+<!--This the code for fadein in the quote displayed -->
+<script type="text/javascript">
+ 
+$(document).scroll(function () {
+var y = $(this).scrollTop();
+var x = $("#operations1").position();
+
+if (y > (x.top - 50)) { // -50 so things don't overlap
+    $(".y").addClass(
+        "fadeIn");
+}
+else {
+    $(".y").removeClass(
+        "fadeIn");
+}
+});
+
+</script>
+<!--The end of the code for the animation -->
+
+
+  <div id="slide1">
+  <blockquote class="y">
+  Vegetables are interesting but lack a sense of purpose when unaccompanied by a good cut of meat. 
+  
+  </blockquote >
+  <cite class="y" >
+    ~Fran Lebowitz
+  </cite>
+  </div>
+
+</div>
+
+
+<div id="linksmap" class="container">
+<div class="row">
+  
+  <div class="col-sm-4" id="footerlinks">
+  <p id="description1" style="font-size:18px;color:White;margin-left:20px;font-family:Arial-Verdana;margin-top:10px;font-weight:bold;">Links</p>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="Aboutus.html">About us</a></li>
+    <li><a href="Contactus.php">Contact us</a></li>
+    <li><a href="Signup.php">Signup</a></li>
+    <li><a href="Signup.php">Login</a></li>
+    </ul>
+  </div>
+  <div class="col-sm-4" id="Fcontacts">
+  <p id="description2" style="font-size:18px;color:White;font-family:Arial-Verdana;font-weight:Bold;margin-left:50px;margin-top:10px;">Contacts</p>
+    <p style="font-size:16px;color:White;font-family:Arial-Verdana;font-weight:Bold;margin-left:50px;padding-top:20px;">The main office contacts</p>
+     <p style="font-size:16px;color:White;font-family:Arial-Verdana;margin-left:50px;"><i class="fa fa-envelope" aria-hidden="true"></i>
+   mwauramargaret1@gmail.com</p>
+    <p style="font-size:16px;color:White;font-family:Arial-Verdana;margin-left:0px;margin-left:50px;">
+    <i class="fa fa-phone" aria-hidden="true"></i>
+     0711309532</p>
+    
+    
+     <p style="font-size:16px;color:White;font-family:Arial-Verdana;font-weight:Bold;margin-left:50px;">The supply office contacts</p>
+      <p style="font-size:16px;color:White;font-family:Arial-Verdana;margin-left:50px;"><i class="fa fa-envelope" aria-hidden="true"></i>
+   shiimaggie@gmail.com</p>
+    <p style="font-size:16px;color:White;font-family:Arial-Verdana;margin-left:0px;margin-left:50px;">
+    <i class="fa fa-phone" aria-hidden="true"></i>
+     0711309532</p>
+  </div>
+
+  <div class="col-sm-4" id="mmap">
+  <p id="description3" style="font-size:18px;color:White;margin-left:50px;font-family:Arial-Verdana;margin-top:10px;">Our Location</p>
+    <div id="map">
+      
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<!--The code for displaying the map -->
+<script type="text/javascript">
+      function initMap() {
+        var uluru = {lat: -1.275122, lng: 36.713919};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTX7W5yd6MrIMBQZKqPq632AZr6yJEcTw&callback=initMap"></script>
+
+
+<div id="icons" class="container">
+
+<div class="row">
+
+<div class="col-sm-4">
+<p style="font-size:18px;color:White;text-align:center;font-family:Arial-Verdana;"><u>Copyright©2018 Meat Source</u></p>
+</div>
+
+<div class="col-sm-8">
+<ul>
+<li><a  href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+<li><a  href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li><a  href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+<li><a  href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+<li><a  href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+</ul>
+
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

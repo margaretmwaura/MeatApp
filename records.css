@@ -1,0 +1,138 @@
+#logo1
+{
+    opacity: .8;
+    height: 50px;
+    bottom: 0;
+    float:left;
+}
+#top
+{
+    width:100%;
+    height:50px;
+}
+ul
+{
+    list-style: none;
+}
+li
+{
+    float:left;
+    padding:10px;
+}
+#links
+{
+    float:right;
+}
+a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    font-size: 21px;
+}
+header
+{
+    opacity: .9;
+}
+a:hover
+{
+    color:blue;
+}
+#top1
+{
+    background-image: url("banner9.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+#top2 
+{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    opacity: .7;
+    position:absolute;
+}
+#table1
+{
+    float: left;
+    width:100%;
+    height: 500px;
+    padding: 50px;
+
+}
+#one
+{
+    width:48%;
+    float: left;
+}
+#two
+{
+    width:42%;
+    float: left;
+    padding:65px;
+}
+#empty1
+{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+#foote
+{
+    background-color: black;
+    overflow:hidden;
+    width: 100%;
+    float: left;
+    opacity: 0.90;
+    height:250px;
+    position: relative;
+    float: left;
+}
+#content7
+{
+    color: white;
+    width:29%;
+    float:left;
+    font-size: large;
+    text-align: center;
+    font-size: larger;
+}
+#foot
+{
+    float: left;
+    padding:70px;
+}
+#foot2
+{
+    width:29%;
+    float:right;
+    padding:6px;
+}
+footer
+{
+    background-color:crimson;
+    width: 100%;
+    bottom:00px;
+    height: 50px;
+    opacity: .8;
+    text-align: center;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
