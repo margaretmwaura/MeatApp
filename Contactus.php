@@ -131,13 +131,27 @@ else
 
 <div id="overflowingimages" class="container">
     <div class="row">
+
+
     <div class="col-sm-2">
         
     </div>
+
+
+
     <div class="col-sm-8" id="twoima">
-        <img src="capture13.PNG" id="ima">
-        <img src="capture16.PNG" id="ima">
+    
+    <div id="ima">
+         <img src="capture13.PNG" id="image" >
     </div>
+       <div id="ima">
+           <img src="capture16.PNG" id="image"> 
+       </div>
+       
+    </div>
+
+
+
     <div class="col-sm-2">
         
     </div>
@@ -159,16 +173,15 @@ else
             <form method="post" action="">
          <h1 style="color:Black;margin-left:70px;"> Leave your reply </h1>
 
-         <div class="form-group">
-         <label style="color:Black;">First name</label> : 
-         <input type="text" name="fname" class="form-control">
-         </div>
-         <div>
-         <label  style="color:Black;">Last name</label>: 
-         <input type="text" name="lname" class="form-control">
-         </div>
-          <br>
-          <br>
+
+        <div class="form-group">
+              <label style="color:Black;">First name</label> : 
+                <input type="text" name="fname" class="form-control">
+           </div>
+           <div>
+           <label  style="color:Black;">Last name</label>: 
+            <input type="text" name="lname" class="form-control">
+           </div>
          <div>
          <label  style="color:Black;">Email</label> 
          <input type="text" name="email" class="form-control" >
@@ -188,7 +201,7 @@ else
      </form>
      <?php if(isset($status))
      {
-        echo '<p style="color:crimson;font-weight:bold;font-size:18px;margin-top:25px;font-family:Arial-Verdana;">'.$status. '</p>' ;
+        echo '<p style="color:black;font-weight:bold;font-size:18px;margin-top:25px;font-family:Arial-Verdana;">'.$status. '</p>' ;
      }
      ?>
 

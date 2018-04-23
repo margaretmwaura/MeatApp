@@ -154,14 +154,21 @@ background-color:crimson!important;
 #ima
 {
     margin-top: -70px;
+    height: 300px;
+    width: 300px;
+    margin-right: 5px;
+    float: left;
+}
+#image
+{
     height: 200px;
     width: 300px;
-    padding-right: 10px;
 }
 #submit
 {
-    color: black;
+    color: white;
     font-weight: bold;
+    background-color: crimson;
 }
 #quote
 {
