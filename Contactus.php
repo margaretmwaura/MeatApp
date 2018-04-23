@@ -135,7 +135,7 @@ else
         
     </div>
     <div class="col-sm-8" id="twoima">
-        <img src="capture15.PNG" id="ima">
+        <img src="capture13.PNG" id="ima">
         <img src="capture16.PNG" id="ima">
     </div>
     <div class="col-sm-2">
@@ -145,6 +145,106 @@ else
 
 </div>
 
+
+<div id="formnmessage" class="container">
+        <div class="row">
+        <div class="col-sm-1">
+            
+
+
+
+        </div>
+        <div class="col-sm-5">
+
+            <form method="post" action="">
+         <h1 style="color:Black;margin-left:70px;"> Leave your reply </h1>
+
+         <div class="form-group">
+         <label style="color:Black;">First name</label> : 
+         <input type="text" name="fname" class="form-control">
+         </div>
+         <div>
+         <label  style="color:Black;">Last name</label>: 
+         <input type="text" name="lname" class="form-control">
+         </div>
+          <br>
+          <br>
+         <div>
+         <label  style="color:Black;">Email</label> 
+         <input type="text" name="email" class="form-control" >
+         </div>
+         <br>
+         <br>
+         <div>
+         <label style="color:Black;">Message</label> 
+          <textarea type="text" name="message" class="form-control" >
+         </textarea>
+        </div>
+          <br>
+          <br>
+         <div>
+         <input type ="submit" name="submit" value = "Submit" id="submit" class="btn btn-primary btn-md form-control">
+         </div>
+     </form>
+     <?php if(isset($status))
+     {
+        echo '<p style="color:crimson;font-weight:bold;font-size:18px;margin-top:25px;font-family:Arial-Verdana;">'.$status. '</p>' ;
+     }
+     ?>
+
+
+
+        </div>
+         <div class="col-sm-1">
+        </div>
+
+        <div class="col-sm-4">
+            <h1 style="color:black;text-align:center;"><u>
+                Words from our customer Management director</u>
+            </h1>
+
+    <p style="color:black;text-align:center;font-family:Arial-Verdana;font-size:18px;"> Our Interests are always based around helping our
+           society so that the community members can reach their goals
+           That keeps us happy and motivated at all times
+           Hope you find our help team accomodating
+          and one that considers.
+     </p>
+     <p style="color:black;text-align:center;font-family:Arial-Verdana;font-size:18px;">
+     Incase you feel that you were not served well reach the management on:
+     <br>
+     <p style="font-size:18px;color:black;font-family:Arial-Verdana;margin-left:50px;"><i class="fa fa-envelope" aria-hidden="true"></i>
+   mwauramargaret1@gmail.com</p>
+    <p style="font-size:18px;color:black;font-family:Arial-Verdana;margin-left:50px;">
+    <i class="fa fa-phone" aria-hidden="true"></i>
+     0711309532</p>
+
+
+        </div>
+        <div class="col-sm-1">
+        </div>
+
+        </div>
 </div>
+
+</div>
+<div class="backfixed fixed2">
+<div class="container" id="quote">
+
+    
+</div>
+
+</div>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+

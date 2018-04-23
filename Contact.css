@@ -94,6 +94,12 @@
     height: 100%;
     background-image: url("capture2053.PNG");
 }
+   
+.backfixed.fixed2
+{
+    height: 100%;
+    background-image: url("capture2054.PNG");
+}
 #top1
 {
     width: 100%;
@@ -152,8 +158,20 @@ background-color:crimson!important;
     width: 300px;
     padding-right: 10px;
 }
-
-
+#submit
+{
+    color: black;
+    font-weight: bold;
+}
+#quote
+{
+    height: 400px;
+    width: 100%;
+}
+#formnmessage
+{
+    padding-bottom: 50px;
+}
 
 
 
